@@ -1,0 +1,26 @@
+[
+  {
+    "id": "UC-01",
+    "title": "Learn RESTCONF basics before touching a live lab",
+    "scenario": "A student team has not used YANG, NETCONF, or RESTCONF before. They need guided, step-by-step practice and explanations before selecting an execution environment.",
+    "decisive_requirement": "guided learning"
+  },
+  {
+    "id": "UC-02",
+    "title": "Quickly inspect a shared API without configuration changes",
+    "scenario": "A developer needs immediate read-only access to explore API responses from a Cisco platform. The work does not require administrative privileges, topology changes, VPN setup, or private isolation.",
+    "decisive_requirement": "immediate shared non-admin access"
+  },
+  {
+    "id": "UC-03",
+    "title": "Test configuration automation in an isolated lab",
+    "scenario": "A network automation script will change device configuration and must be tested in a private environment where the team can use administrative access. Setup time and VPN access are acceptable.",
+    "decisive_requirement": "private isolated admin configuration testing"
+  },
+  {
+    "id": "UC-04",
+    "title": "Find an existing automation example",
+    "scenario": "A developer needs a working sample repository or reusable script pattern before writing a new automation tool. The main need is existing code to review and adapt.",
+    "decisive_requirement": "existing sample code"
+  }
+]
