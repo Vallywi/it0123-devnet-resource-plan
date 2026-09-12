@@ -15,6 +15,7 @@
 - Cisco DevNet Sandbox documentation distinguishes always-on and reservation-based sandbox access models: https://developer.cisco.com/docs/sandbox/
 - Cisco DevNet describes Code Exchange as the place to explore sample solutions and implementations: https://developer.cisco.com/codeexchange/
 
+
 ## Validator Result
 
 `python validate_plan.py` reports `9/9 checks passed`.
