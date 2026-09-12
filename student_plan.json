@@ -1,0 +1,46 @@
+{
+  "activity": "IT0123 Module 2 DevNet Resource Validation",
+  "ai_tool_used": "OpenAI Codex / ChatGPT coding assistant",
+  "decisions": [
+    {
+      "use_case_id": "UC-01",
+      "recommended_resource": "learning-lab",
+      "decisive_requirement": "guided learning",
+      "ai_recommendation_summary": "The AI recommended a DevNet Learning Lab because the scenario's main need is structured, step-by-step learning before selecting a live execution environment.",
+      "verification_status": "verified",
+      "official_source_url": "https://developer.cisco.com/learning/",
+      "official_evidence_summary": "Cisco DevNet presents Learning Labs as automation and programmability labs for Cisco platforms, which supports using them for guided learning.",
+      "final_decision_reason": "A learning-lab best matches a beginner scenario where explanation and guided practice matter more than running or changing a sandbox."
+    },
+    {
+      "use_case_id": "UC-02",
+      "recommended_resource": "always-on-sandbox",
+      "decisive_requirement": "immediate shared non-admin access",
+      "ai_recommendation_summary": "The AI recommended an Always-On Sandbox because the scenario only needs immediate API exploration and does not require private isolation or administrative changes.",
+      "verification_status": "verified",
+      "official_source_url": "https://developer.cisco.com/docs/sandbox/",
+      "official_evidence_summary": "Cisco DevNet Sandbox documentation distinguishes always-on sandboxes from reservation-based sandboxes, supporting the use of always-on resources for quick shared exploration.",
+      "final_decision_reason": "An always-on-sandbox is appropriate because the task is read-only exploration and does not need private topology control, VPN setup, or administrative privileges."
+    },
+    {
+      "use_case_id": "UC-03",
+      "recommended_resource": "reservation-sandbox",
+      "decisive_requirement": "private isolated admin configuration testing",
+      "ai_recommendation_summary": "The AI recommended a Reservation Sandbox because configuration automation needs isolation and administrative control, and the scenario accepts setup time and VPN access.",
+      "verification_status": "verified",
+      "official_source_url": "https://developer.cisco.com/docs/sandbox/",
+      "official_evidence_summary": "Cisco DevNet Sandbox documentation identifies reservation-based sandboxes separately from always-on sandboxes, supporting reservation use when setup and isolated lab access are required.",
+      "final_decision_reason": "A reservation-sandbox is the safest fit because the script changes configuration and requires a private test environment instead of a shared always-on lab."
+    },
+    {
+      "use_case_id": "UC-04",
+      "recommended_resource": "code-exchange",
+      "decisive_requirement": "existing sample code",
+      "ai_recommendation_summary": "The AI recommended Cisco Code Exchange because the scenario's main need is an existing repository or automation example to review and adapt.",
+      "verification_status": "verified",
+      "official_source_url": "https://developer.cisco.com/codeexchange/",
+      "official_evidence_summary": "Cisco DevNet describes Code Exchange as the place to explore sample solutions and implementations, which supports using it when existing code is needed.",
+      "final_decision_reason": "code-exchange fits because the deliverable starts from finding and reviewing existing sample code, not from guided learning or sandbox execution."
+    }
+  ]
+}
